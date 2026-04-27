@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Thaco Hub",
-         Animation = "Youtube: No Youtube :))"
+         Animation = "Youtube: Minh Roblox :))"
          },
         Key = {
         KeySystem = false,
@@ -32,6 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Farm Level"})
      local Tab2o = MakeTab({Name = "Farm Mastery"})
+	 local Tab3o = MakeTab({Name = "Raid"})
      
 ------- BUTTON
     
