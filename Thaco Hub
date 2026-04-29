@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Thaco Hub",
-         Animation = "Youtube: Minh Roblox :))"
+         Animation = "Youtube: Minh Roblox"
          },
         Key = {
         KeySystem = false,
@@ -32,12 +32,20 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Farm Level"})
      local Tab2o = MakeTab({Name = "Farm Mastery"})
-	 local Tab3o = MakeTab({Name = "Raid"})
+	 local Tab3o = MakeTab({Name = "Automatic"})
+	 local Tab4o = MakeTab({Name = "Raid"})
      
 ------- BUTTON
     
     AddButton(Tab1o, {
      Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+	AddButton(Tab3o, {
+	 Name = "Auto Farm Ectoplasm",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
